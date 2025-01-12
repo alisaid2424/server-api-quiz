@@ -1,5 +1,5 @@
 [build]
-  functions = "netlify/functions/jsonServer.js"  
+  functions = "netlify/functions"  
   publish = "."  
 
 [build.environment]
