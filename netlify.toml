@@ -1,0 +1,13 @@
+[build]
+  functions = "netlify/functions/jsonServer.js"  
+  publish = "."  
+
+[build.environment]
+  NODE_VERSION = "14"  
+
+[[headers]]
+for = "/**"
+[headers.values]
+  Access-Control-Allow-Origin = "*"
+  Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+  Access-Control-Allow-Headers = "Content-Type"

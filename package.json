@@ -1,0 +1,21 @@
+{
+  "name": "server-api-quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "keywords": [
+    "json-server",
+    "api",
+    "cors",
+    "fake-db"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
+  }
+}
